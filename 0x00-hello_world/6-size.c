@@ -9,12 +9,14 @@ int main(void)
 {
 	char CharVar;
 	int IntVar;
-	double DoubleVar;
+	long int LongVar
+	long long int LongLongVar;
 	float FloatVar;
 
 	printf("Byte size of char is- %d\n", sizeof(CharVar));
 	printf("Byte size of int is- %d\n", sizeof(IntVar));
-	printf("Byte size of double is- %d\n", sizeof(DoubleVar));
-	printf("Byte size of double is- %d\n", sizeof(FloatVar));
+	printf("Byte size of long int is- %d\n", sizeof(LongVar));
+	printf("Byte size of long long int is- %d\n" sizeof(LongLongVar));
+	printf("Byte size of float is- %d\n", sizeof(FloatVar));
 	return (0);
 }
