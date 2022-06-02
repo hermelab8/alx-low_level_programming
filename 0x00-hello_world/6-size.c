@@ -9,7 +9,7 @@ int main(void)
 {
 	char CharVar;
 	int IntVar;
-	long int LongVar
+	long int LongVar;
 	long long int LongLongVar;
 	float FloatVar;
 
