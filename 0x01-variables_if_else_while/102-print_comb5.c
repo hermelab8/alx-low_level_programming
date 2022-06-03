@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print two 2-digit numbers each digit with 0-99 range and non repititive
+ * main - print two 2-digit numbs each digit with 0-99 range and non repititive
  *
  * Return: Always 0 (Success)
  */
