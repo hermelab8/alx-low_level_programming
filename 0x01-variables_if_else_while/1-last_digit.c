@@ -22,9 +22,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	scanf("%d", &n);
-	
+
 	/* calculate last digit of n */
-	
+
 	LDigit = n % 10;
 
 	if (LDigit > 5)
