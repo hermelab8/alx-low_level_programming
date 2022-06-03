@@ -9,18 +9,18 @@ int main(void)
 {
 	int f, s;
 
-	for (f= 0; f <= 9; f++)
+	for (f = 0; f <= 9; f++)
 	{
 		for (s = f + 1; s <= 9; s++)
 		{
 			putchar((f % 10) + '0');
 			putchar((s % 10) + '0');
-		
+
 			if (f == 8 && s == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
-			
+
 		}
 	}
 	putchar('\n');
