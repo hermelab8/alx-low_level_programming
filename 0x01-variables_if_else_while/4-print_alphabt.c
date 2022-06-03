@@ -9,16 +9,9 @@ int main(void)
 {
 	char lcase;
 
-	for (lcase = 'a'; lcase < 'e'; lcase++)
+	for (lcase = 'a'; lcase <= 'z'; lcase++)
 	{
-		putchar(lcase);
-	}
-	for (lcase = 'f'; lcase < 'q'; lcase++)
-	{
-		putchar(lcase);
-	}
-	for (lcase = 'r'; lcase <= 'z'; lcase++)
-	{
+		if (lcase != 'e' && lcase != 'q')
 		putchar(lcase);
 	}
 	putchar('\n');
