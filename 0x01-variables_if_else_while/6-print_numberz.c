@@ -11,7 +11,7 @@ int main(void)
 
 	for (s_num = 0; s_num <= 9; s_num++)
 	{
-		putchar((s_num%10) + '0');
+		putchar((s_num % 10) + '0');
 	}
 	putchar('\n');
 	return (0);
