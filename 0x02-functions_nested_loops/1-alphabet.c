@@ -8,7 +8,7 @@
 void print_alphabet(void)
 {
 	/**
-	 * function prints lower case abc
+	 * print_alphabet - prints lower case abc
 	 */
 	char Lcase;
 
