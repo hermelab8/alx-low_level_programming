@@ -1,5 +1,4 @@
-#define main "main.h"
-#include "_putchar.h"
+#include "main.h"
 
 /**
  * main- print to stdout using _putchar
@@ -8,13 +7,12 @@
  */
 int main()
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	int print[] = (_putchar);
+
+	for (i = 0; i < 8; i++)
+	{
+	_putchar print[i];
+	}
+	_putchar('\n');
 	return (0);
 }
