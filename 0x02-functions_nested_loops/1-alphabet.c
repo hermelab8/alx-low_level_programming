@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 
 /**
  * main - uses the print_alphabet function to print lower case ABC
@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int abc[] = (a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,x);
+	int i;
 	
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 128; i++)
 	{
-		print_alphabet abc[i];
+		print_alphabet(i);
 	}
 	_putchar('\n');
 	return (0);
