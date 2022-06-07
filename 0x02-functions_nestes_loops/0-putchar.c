@@ -1,12 +1,10 @@
-#if _putchar
+#define main "main.h"
 #include "_putchar.h"
 
 /**
- * _putchar - writed the character c to stdout
- * @c: The character to print
+ * main- print to stdout using _putchar
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0 (Success).
  */
 int main()
 {
