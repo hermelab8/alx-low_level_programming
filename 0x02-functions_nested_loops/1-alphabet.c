@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *void - print_alphabet block has a void return type
+ *main - print_alphabet block has a void return type
  *
  * Return: void
  */
