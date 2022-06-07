@@ -2,14 +2,11 @@
 
 /**
  *main- print_alphabet block has a void return type
- *
+ *Description: print_alphabet prints lowercase abc
  *Return: Always void (Success)
  */
 void print_alphabet(void)
 {
-	/**
-	 * print_alphabet - prints lower case abc
-	 */
 	char Lcase;
 
 	for (Lcase = 'a'; Lcase <= 'z'; Lcase++)
