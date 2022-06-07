@@ -5,6 +5,9 @@
  *
  *Return: Always void (Success)
  */
+/**
+ * print_alphabet() prints lower case abc
+ */
 void print_alphabet(void)
 {
 	char Lcase;
