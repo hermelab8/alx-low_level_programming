@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *print_alphabet block has a void return type
+ *main- print_alphabet block has a void return type
  *
+ *Return: Always void (Success)
  */
 void print_alphabet(void)
 {
