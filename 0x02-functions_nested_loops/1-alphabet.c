@@ -5,11 +5,11 @@
  *
  *Return: Always void (Success)
  */
-/**
- * print_alphabet() prints lower case abc
- */
 void print_alphabet(void)
 {
+	/**
+	 * function prints lower case abc
+	 */
 	char Lcase;
 
 	for (Lcase = 'a'; Lcase <= 'z'; Lcase++)
