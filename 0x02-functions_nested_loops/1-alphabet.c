@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- * main - uses the print_alphabet function to print lower case ABC
+ * print_alphabet block has a void return type
  *
- * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	int i;
+	char Lcase;
 	
-	for (i = 97; i < 128; i++)
+	for (Lcase = 'a'; Lcase <= 'z'; Lcase++)
 	{
-		print_alphabet(i);
+		_putchar(Lcase);
 	}
 	_putchar('\n');
-	return (0);
 }

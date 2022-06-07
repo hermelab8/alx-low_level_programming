@@ -5,10 +5,8 @@
  *
  * Return: Always void (Success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	char c = "&c";
-
-	_putchar(c);
+	return (0);
 }
 
