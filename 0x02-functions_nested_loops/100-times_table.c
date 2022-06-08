@@ -2,12 +2,14 @@
 
 /**
  * print_times_table- prints times table for n
+ *@n: function argument
  *
  * Return: void
  */
 void print_times_table(int n)
 {
 	int d, m, prod;
+	
 	if (n <= 15 && n >= 0)
 	{
 		for (d = 0; d <= n; d++)
