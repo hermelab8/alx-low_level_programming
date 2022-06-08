@@ -9,7 +9,7 @@ int main(void)
 {
 	int c, M_sum;
 
-	for (c = 0; c < 1024; c++)
+	for (c = 1; c < 1024; c++)
 	{
 		M_sum = 0;
 
