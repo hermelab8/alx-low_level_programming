@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int c, current, next, fib;
+	long int c, current, next, fib;
 
 		current = 0;
 		next = 1;
@@ -15,13 +15,13 @@ int main(void)
 
 		for (c = 0; c < 50; c++)
 		{
-			if (c < 50)
+			if (c == 50)
 			{
-				printf("%d, ", fib);
+				printf("%ld\n", fib);
 			}
 			else
 			{
-				printf("%d\n", fib);
+				printf("%ld, ", fib);
 			}
 			current = next;
 			next = fib;
