@@ -9,10 +9,10 @@ int main(void)
 {
 	int c, M_sum;
 
+	M_sum = 0;
+
 	for (c = 1; c < 1024; c++)
 	{
-		M_sum = 0;
-
 		if ((c % 3) == 0 || (c % 5) == 0)
 		{
 			M_sum = M_sum + c;
