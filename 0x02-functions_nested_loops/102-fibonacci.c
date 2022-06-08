@@ -25,11 +25,7 @@ int main(void)
 			}
 			current = next;
 			next = fib;
-
 			fib = current + next;
-
-			printf("%d, ", fib);
 		}
 	return (0);
 }
-
